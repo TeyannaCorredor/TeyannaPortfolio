@@ -546,6 +546,76 @@ header {
     padding: .5em;
 }
 
+/* Resume CSS */
+#resumeHeader{
+    text-align: center;
+  }
+  
+  #resumeHeader hr{
+    width: 75%;
+    margin: auto;
+    padding: 1px;
+    background-color: #111;
+  }
+  
+  #mainHeading{
+      font-size: xx-large;
+  }
+  
+  .subHeading{
+      font-size: x-large;
+      padding:15px;
+      text-decoration: underline;
+  }
+  
+  #skills{
+      width: 75vw;
+      margin: auto;
+  }
+  
+  #skills-list{
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  #workHistory{
+      width: 75vw;
+      margin: auto;
+  }
+  
+  .jobs{
+      font-weight: 600;
+      margin-left: 20px;
+  }
+  
+  .jobTitle{
+      font-style: italic;
+  }
+  
+  #Education{
+      width: 75vw;
+      margin: auto;
+  }
+  
+  #resume ul li{
+      margin-left: 50px;
+  }
+  
+  #download-btn{
+      display: block;
+      font-size: 15px;
+      width: 150px;
+      margin:10px auto;
+      background-color: yellow;
+      color: black;
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+      font-weight:bold;
+      text-align: center;
+      text-decoration: none;
+  }
+
 
 
 
